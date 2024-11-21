@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Signup Page</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>Register_Servlet</servlet-name>
+  <servlet-class>comtech.naman.MyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Register_Servlet</servlet-name>
+  <url-pattern>/register</url-pattern>  
+  </servlet-mapping>
+ 
+  
+  
+  
+  
+</web-app>
